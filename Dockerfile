@@ -12,5 +12,6 @@ RUN apt-get update && apt-get install -y \
     mysql-client \
     gnutls-bin \
     bind9-host \
+    iptables \
     ruby2.3 \
   && rm -rf /var/lib/apt/lists/*
