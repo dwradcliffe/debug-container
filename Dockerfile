@@ -13,6 +13,8 @@ RUN apt-get update && apt-get install -y \
     gnutls-bin \
     bind9-host \
     iptables \
+    iproute2 \
+    net-tools \
     iputils-ping \
     ruby2.5 \
   && rm -rf /var/lib/apt/lists/*
